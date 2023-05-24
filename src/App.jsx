@@ -20,7 +20,7 @@ function App() {
       <div className="card">
         <h2> INTEGRANTES: </h2>
 
-        <h4> YESLY YOSNARY ANGARITA </h4>
+        <h4> YESLY ROSNAIRA ANGARITA </h4>
         <h4> CARLOS DAIRO HERRAN </h4>
         <h4> WILLIAM RICARDO QUICENO </h4>
 
