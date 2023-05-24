@@ -28,7 +28,7 @@ function App() {
 
         <h6>ENLACE DEL PROYECTO FASE 5</h6>
 
-        <a href="index.html"> Click aqui para ir al proyecto </a>
+        <a href="inicio.html"> Click aqui para ir al proyecto </a>
       </div>
 
       <a href="https://www.unad.edu.co/"> Click aqui para ir a la pagina de la universidad </a>
