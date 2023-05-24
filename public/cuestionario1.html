@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cuestionario </title>
+</head>
+
+<!--Se crea el estilo para la página del cuestionario-->
+<style>
+    * {
+        text-decoration: none;
+        list-style: none;
+        background-color: #98DFD6;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 40px;
+        margin: 0 2px;
+    }
+
+    nav ul li a {
+        color: blue;
+        font-size: 18px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    a:hover {
+        background: red;
+        color: black;
+        transition: .5s;
+    }
+
+    input {
+        color: blue;
+        font-size: 16px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    input:hover {
+        background: greenyellow;
+        color: black;
+        transition: .5s;
+    }
+</style>
+
+<body>
+    <!-- Botón para regresar al formulario principal-->
+    <nav>
+        <ul>
+            <li><a href="index.html"> Inicio </a></li>
+        </ul>
+    </nav>
+
+    <!-- código para las preguntas-->
+    <h1 id="resultado"> RESPONDE LAS SIGUIENTES PREGUNTAS </h1>
+    <div>
+        <form name="evaluacionBoxModel">
+
+            <!-- código para la pregunta número 1-->
+            <h3>1. ¿Que es el Box Model? </h3>
+
+            <input type="radio" name="r1" value="a"> a. Es una especie de caja, donde se agregan los tipos de estilos
+            para la página web <br>
+
+            <input type="radio" name="r1" value="b"> b. En los navegadores, todo se construye a partir de cajas.
+            Debemos entender, es que cada elemento que definimos en un documento HTML se
+            mostrará en el navegador como una caja rectangular <br>
+
+            <input type="radio" name="r1" value="c"> c. Es una interfaz que dos sistemas de computación utilizan para
+            intercambiar información de manera segura a través de Interne <br>
+
+            <!-- código para la pregunta número 2-->
+            <h3>2. ¿Cuales son las cuatro principales propiedades del Box Model' </h3>
+
+            <input type="radio" name="r2" value="a"> a. Alto, ancho, área y base. <br>
+            <input type="radio" name="r2" value="b"> b. left, right, width y height. <br>
+            <input type="radio" name="r2" value="c"> c. Contenido, borde, padding y el margin. <br>
+
+            <!-- código para la pregunta número 3-->
+            <h3>3. La definición de contenido en un box model es: </h3>
+
+            <input type="radio" name="r3" value="a"> a. Se trata del contenido HTML del elemento (las palabras de un
+            párrafo, una imagen, el texto de una lista de elementos, etc.)<br>
+
+            <input type="radio" name="r3" value="b"> b. línea que encierra completamente el contenido y su relleno. <br>
+
+            <input type="radio" name="r3" value="c"> c. Separación opcional existente entre la caja y el resto de cajas
+            adyacentes. <br>
+
+            <!-- código para la pregunta número 4-->
+            <h3>4. En el modelo de caja en CSS existen otras dos propiedades para modificar el borde, cuales son: </h3>
+
+            <input type="radio" name="r4" value="a"> a. Border-radius: permite redondear las esquinas del borde
+            cambiando su radio. <br>
+            <input type="radio" name="r4" value="b"> b. Border-image: permite establecer una imagen como borde. <br>
+            <input type="radio" name="r4" value="c"> c. a y b son correctas <br>
+
+            <!-- código para la pregunta número 5-->
+            <h3>5. ¿A que hacen referencia el width y el height? </h3>
+
+            <input type="radio" name="r5" value="a"> a. Aplica exactamente la misma lógica que con el padding
+            (sustituyendo la palabra padding por margin y todo el resto igual). <br>
+
+            <input type="radio" name="r5" value="b"> b. A la altura y al ancho de una caja html, Los elementos en línea
+            no hacen caso del width ni el height que hayas podido indicar en la hoja de estilos. Para que lo hagan hay
+            que transformarlos a elementos bloque o a elementos inline-block. <br>
+
+            <input type="radio" name="r5" value="c"> c. Los elementos bloque si respetan todos los márgenes que hayamos
+            podido indicar. Pero atención, los márgenes inferior y superior de dos cajas una encima de la otra se
+            fusionan. <br>
+            <br>
+            <br>
+
+            <input type="button" value=" Enviar" onclick="procesarRespuestas()">
+        </form>
+    </div>
+    <script src="js/respuesta1.js"></script>
+</body>
+
+</html>
