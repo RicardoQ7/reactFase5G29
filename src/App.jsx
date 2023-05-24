@@ -16,18 +16,20 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>FASE 5: REALIZAR EL DESPLIEGUE DEL SITIO WEB</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <h2> INTEGRANTES: </h2>
+
+        <h4> YESLY YOSNARY ANGARITA </h4>
+        <h4> CARLOS DAIRO HERRAN </h4>
+        <h4> WILLIAM RICARDO QUICENO </h4>
+
+        <h6>ENLACE DEL PROYECTO FASE 5</h6>
+
+        <a href="index.html"> Click aqui para ir al proyecto </a>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+
+      <a href="https://www.unad.edu.co/"> Click aqui para ir a la pagina de la universidad </a>
     </>
   )
 }
