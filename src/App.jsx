@@ -24,12 +24,15 @@ function App() {
         <h4> CARLOS DAIRO HERRAN </h4>
         <h4> WILLIAM RICARDO QUICENO </h4>
 
+        <h3> GRUPO: 301122_29 </h3><br />
+
         <h6>ENLACE DEL PROYECTO FASE 5</h6>
 
         <a href="index.html"> Click aqui para ir al proyecto </a>
       </div>
 
       <a href="https://www.unad.edu.co/"> Click aqui para ir a la pagina de la universidad </a>
+      
     </>
   )
 }
